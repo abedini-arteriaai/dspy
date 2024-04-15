@@ -35,7 +35,7 @@ class BootstrapFewShotWithRandomSearch(Teleprompter):
         num_candidate_programs=16,
         num_threads=6,
         max_errors=10,
-        stop_at_score=None,
+        stop_at_score=1.0,
         metric_threshold=None,
     ):
         self.metric = metric
